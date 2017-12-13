@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shruthiraju.airqualityindia.MeaningActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="72dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="4dp"
+                android:id="@+id/pm25_title"
+                android:text="@string/PM2.5"
+                style="@style/pollutant_title" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#878787"
+                android:text="@string/PM2.5_desc"/>
+
+            <TextView
+                android:id="@+id/pm10_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/PM10"
+                style="@style/pollutant_title"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#878787"
+                android:text="@string/PM10_desc"/>
+
+            <TextView
+                android:id="@+id/co_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/CO"
+                style="@style/pollutant_title"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#878787"
+                android:text="@string/CO_desc"/>
+
+            <TextView
+                android:id="@+id/so2_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/pollutant_title"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#878787"
+                android:text="@string/SO2_desc"/>
+
+            <TextView
+                android:id="@+id/no2_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/pollutant_title"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#878787"
+                android:text="@string/NO2_desc"/>
+
+            <TextView
+                android:id="@+id/o3_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/pollutant_title"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#878787"
+                android:text="@string/O3_desc"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-thin"
+            android:textSize="16sp"
+            android:text="Information Courtesy of Central Pollution Control Board"
+            android:gravity="center_horizontal"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</ScrollView>

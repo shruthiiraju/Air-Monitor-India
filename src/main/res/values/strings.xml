@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Air Quality India</string>
+    <string name="my_city_string">Details</string>
+    <string name="all_cities_string">all cities</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nh3">S<sub><small>3</small></sub></string>
+    <string name="menu">Search!!</string>
+    <string name="search_hint">search!!</string>
+    <string name="menu_refresh">Refresh</string>
+
+    <string name="PM2.5">PM2.5</string>
+    <string name="PM10">PM10</string>
+    <string name="CO">CO</string>
+
+    <string name="PM2.5_desc">Particulate Matter(PM) with a diameter up to 2.5 nanometer. Contains a high
+proportion of various toxic metals and acids, and aerodynamically can penetrate deeper into the respiratory tract. </string>
+
+    <string name="PM10_desc">Particulate Matter(PM) with a diameter up to 10 nanometer. Exposure can result in adverse breathing, respiratory
+symptoms, decrease in pulmonary function, damage to lung tissue, cancer, emergency hospital admission for asthma, bronchitis, and pneumonia in older people. </string>
+
+    <string name="NO2_desc">Nitrogen Dioxide is produced as a result of combustion processes. Continued or frequent exposures to high concentrations of Nitrogen Dioxide may cause irritation of the lungs and consequent acute respiratory illness.</string>
+    <string name="SO2_desc">Coal burning is a major source of Sulphur Dioxide in air. Sulphur Dioxide affects mucous membranes of the nose and upper respiratory
+tract.</string>
+    <string name="O3_desc">Ozone can aggravate bronchitis, heart disease, emphysema, asthma and reduce lung capacity. Irritation can occur
+in respiratory system, causing coughing, and uncomfortable sensation in chest.\nHigh Ozone levels result in sensitivity to
+allergens, thus it can aggravate asthma. </string>
+
+    <string name="CO_desc">The largest contributors of Carbon Monoxide are petrol-fuelled vehicles. Carbon Monoxide binds strongly to red blood cells, impairing the transport of oxygen in blood, leading to tissue damage in cardiovascular and nervous systems.</string>
+</resources>
